@@ -52,10 +52,10 @@
 }
     </script>
 </head>
-<body>
+<body id="top">
     <a class="skip" href="#main">Skip to content</a>
 
-    <header class="site-header" id="top">
+    <header class="site-header">
         <div class="wrap bar">
             <a class="brand" href="#top" aria-label="Blurp home">
                 <img src="assets/icon-192.webp" width="36" height="36" alt="" />
@@ -90,9 +90,9 @@
                     </ul>
                 </div>
                 <div class="stack">
-                        <img src="assets/shots/01.webp" width="560" height="1217" alt="Ready before you are: no projects, no files, no menus" decoding="async" />
-                        <img src="assets/shots/02.webp" width="560" height="1217" alt="Catch the thought: one tap and it is already recording" decoding="async" />
-                        <img src="assets/shots/03.webp" width="560" height="1217" alt="Every thought, kept: newest first, playing the instant you touch it" decoding="async" />
+                        <img src="assets/shots/01.webp" width="560" height="1217" alt="Ready: No projects, no files, no menus." decoding="async" />
+                        <img src="assets/shots/02.webp" width="560" height="1217" alt="Capture: One tap and it is already recording." decoding="async" />
+                        <img src="assets/shots/03.webp" width="560" height="1217" alt="Recordings: Newest first, playing the instant you touch it." decoding="async" />
                 </div>
             </div>
         </section>
@@ -114,24 +114,22 @@
 
         <section class="section" id="screens" aria-labelledby="screens-title">
             <div class="wrap">
-                <div class="gallery-head">
-                    <div>
-                        <p class="eyebrow">Screens</p>
-                        <h2 id="screens-title">A look inside</h2>
-                    </div>
-                    <div class="arrows">
-                        <button class="arrow" id="g-prev" type="button" aria-label="Previous screens"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg></button>
-                        <button class="arrow" id="g-next" type="button" aria-label="Next screens"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" /></svg></button>
-                    </div>
+                <p class="eyebrow">Screens</p>
+                <h2 id="screens-title">A look inside</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-track" tabindex="0" aria-label="Blurp screenshots">
+                    <figure><img src="assets/shots/01.webp" width="560" height="1217" alt="Ready: No projects, no files, no menus." loading="lazy" decoding="async" /><figcaption><strong>Ready</strong>No projects, no files, no menus.</figcaption></figure>
+                    <figure><img src="assets/shots/02.webp" width="560" height="1217" alt="Capture: One tap and it is already recording." loading="lazy" decoding="async" /><figcaption><strong>Capture</strong>One tap and it is already recording.</figcaption></figure>
+                    <figure><img src="assets/shots/03.webp" width="560" height="1217" alt="Recordings: Newest first, playing the instant you touch it." loading="lazy" decoding="async" /><figcaption><strong>Recordings</strong>Newest first, playing the instant you touch it.</figcaption></figure>
+                    <figure><img src="assets/shots/04.webp" width="560" height="1217" alt="Transcripts: Transcribed on your phone, never on a server." loading="lazy" decoding="async" /><figcaption><strong>Transcripts</strong>Transcribed on your phone, never on a server.</figcaption></figure>
+                    <figure><img src="assets/shots/05.webp" width="560" height="1217" alt="Search: Find it by name, or by every word you said." loading="lazy" decoding="async" /><figcaption><strong>Search</strong>Find it by name, or by every word you said.</figcaption></figure>
+                    <figure><img src="assets/shots/06.webp" width="560" height="1217" alt="Widgets: Home Screen and Lock Screen widgets, and a Live Activity while you record." loading="lazy" decoding="async" /><figcaption><strong>Widgets</strong>Home Screen and Lock Screen widgets, and a Live Activity while you record.</figcaption></figure>
                 </div>
-                <ul class="gallery-track" tabindex="0" aria-label="Blurp screenshots">
-                    <li><img src="assets/shots/01.webp" width="560" height="1217" alt="Ready before you are: no projects, no files, no menus" loading="lazy" decoding="async" /></li>
-                    <li><img src="assets/shots/02.webp" width="560" height="1217" alt="Catch the thought: one tap and it is already recording" loading="lazy" decoding="async" /></li>
-                    <li><img src="assets/shots/03.webp" width="560" height="1217" alt="Every thought, kept: newest first, playing the instant you touch it" loading="lazy" decoding="async" /></li>
-                    <li><img src="assets/shots/04.webp" width="560" height="1217" alt="Read what you said: transcribed on your phone, never on a server" loading="lazy" decoding="async" /></li>
-                    <li><img src="assets/shots/05.webp" width="560" height="1217" alt="Find that one thought: search by name or by every word you said" loading="lazy" decoding="async" /></li>
-                    <li><img src="assets/shots/06.webp" width="560" height="1217" alt="Record from anywhere: Home Screen and Lock Screen widgets" loading="lazy" decoding="async" /></li>
-                </ul>
+                <div class="wrap gallery-ctrl">
+                    <button class="arrow" type="button" id="g-prev" aria-label="Previous screens"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6" /></svg></button>
+                    <button class="arrow" type="button" id="g-next" aria-label="Next screens"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg></button>
+                </div>
             </div>
         </section>
 
